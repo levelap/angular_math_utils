@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/levelap/angular_math_utils.svg?branch=master)](https://travis-ci.org/levelap/angular_math_utils)
+
 # math_utils for angular #
 
 Angular service to properly do math without floating point errors.
