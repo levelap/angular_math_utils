@@ -1,4 +1,5 @@
 /* global Big */
+/* global _ */
 'use strict';
 
 angular.module('MathUtils')
