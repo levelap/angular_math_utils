@@ -130,11 +130,10 @@ module.exports = function (grunt) {
     jshint: {
       options: {
         jshintrc: './.jshintrc',
-        ignores: ['<%= yeoman.app %>/scripts/**/specs/fixtures/**.js', '<%= yeoman.app %>/scripts/e2e_specs/**.js', '<%= yeoman.app %>/scripts/core/md5/**.js']
       },
       all: [
         'Gruntfile.js',
-        '<%= yeoman.app %>/scripts/{,**/}**.js'
+        '<%= yeoman.app %>/{,**/}**.js'
       ]
     },
     recess: {
